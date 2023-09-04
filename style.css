@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://cdn.discordapp.com/attachments/988727380778553354/1148244274375307274/banana_png.png');
+    background-size: contain;
+    cursor: pointer;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 24px;
+}
